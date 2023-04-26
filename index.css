@@ -46,7 +46,8 @@ nav ul li a {
     height: 90vh;
     background-color: rgb(184, 71, 194);
     border: 5px solid white;
-    display: flex;
+    column-count: 4;
+    display: block;
 }
 
 #tab3 {
@@ -81,4 +82,20 @@ nav ul li a {
 
 #txttab1 h1 {
     font-size: 40px;
+}
+
+.random{
+    width: 100%;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+#tab2 h1{
+    font-size: xx-large;
+    font-weight: bold;
+    display: block;
 }
