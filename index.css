@@ -62,7 +62,7 @@ nav ul li a {
 
 #tab4 {
     width: 100%;
-    height: 90vh;
+    height: 50vh;
     background-color: rgb(210, 26, 216);
     border: 5px solid white;
     display: flex;
@@ -87,7 +87,7 @@ nav ul li a {
 }
 
 .random {
-    width: 25%;
+    width: 30%;
     border-radius: 5%;
     height: 70%;
 }
@@ -105,4 +105,20 @@ nav ul li a {
 .tserv {
     font-weight: bold;
     font-size: xx-large;
+}
+
+#ctport {
+    width: 20%;
+    height: 89vh;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+#tab4 ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
 }
